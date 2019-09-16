@@ -11,12 +11,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Styled Component Library
+         Styled Component Library 
         </p>
   
   
-        <Button variant="primary"/><br></br>
-        <Button  variant="secondary"/><br></br>
+        <Button variant="primary" btnColor="yellow"  link="https://www.google.com/"/><br></br>
+        <Button  variant="secondary" btnColor="palevioletred"  link="https://www.google.com/"/><br></br>
+
         <br></br><br></br>
         <p>Counter Buttons</p>
         <Counter/>
