@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import '../css/styles.css';
 
 class Footer extends Component {
   render() {
     return ( 
-      <div className = "footer" > copy right: 2019</div>
+      <div className = "footer" > <p>copyright: 2019</p></div>
 
     );
   }

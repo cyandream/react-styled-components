@@ -1,0 +1,35 @@
+
+.counter {
+    background:#61dafbd4;
+    border: 2px solid rgb(48, 46, 46);
+}
+
+.paragraph{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 16px;
+    border-radius: 3px;
+    color: green;
+    border: 2px solid rgb(71, 66, 66);
+    margin: 0 1em;
+    padding: 0.25em 1em;
+    transition: 0.5s all ease-out;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.footer {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background-color:  #171819;
+    padding: 1px;
+}
+
+.footer p {
+    font-size: small;
+}
