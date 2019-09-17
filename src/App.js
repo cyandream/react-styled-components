@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Footer from './components/Footer';
-import Button from './components/Button';
-import Counter from './components/Counter';
+import Footer from './components/Footer/Footer';
+import Button from './components/Button/Button';
+import Counter from './components/Counter/Counter';
 
 function App() {
   return (
