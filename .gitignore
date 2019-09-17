@@ -10,18 +10,30 @@
 
 # production
 /build
+dist/
+www/
+loader/
 
 # misc
+*~
 .DS_Store
 .env.local
+Thumbs.db
 .env.development.local
 .env.test.local
 .env.production.local
+.vscode/
 package-lock.json
+*.sublime-project
+*.sublime-workspace
 
 # Logs
 logs
 *.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
 npm-debug.log*
 .npm
 
